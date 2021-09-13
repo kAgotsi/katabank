@@ -1,0 +1,33 @@
+--- Create client curl request----
+
+curl --location --request POST 'http://localhost:9004/api/clients?name=LECOQ'
+
+--- Create account curl request----
+
+curl --location --request POST 'http://localhost:9004/api/account' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "accountNumber":"1201",
+    "clientId" :"1"
+}'
+
+--- make deposit curl request----
+curl --location --request POST 'http://localhost:9004/api/operations/deposit' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "accountNumber":"1201",
+    "amount" :"20"
+}'
+
+--- make withdrawal curl request----
+curl --location --request POST 'http://localhost:9004/api/operations/withdrawal' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "accountNumber":"1201",
+    "amount" :"20"
+}'
+
+
+--- All operations by account  curl request----
+curl --location --request GET 'http://localhost:9004/api/operations?accountNumber=1201' \
+--data-raw ''
