@@ -17,9 +17,9 @@ POST /api/operations/withdrawal : make withdrawal in account
 
 POST /api/operations/: Get all operation
 
-**Test**:
+* **Test** *:
 Scenario:
-To test :
+To test:
 0. Create database on mysql server : kata_bank
 1. Create a client
 2.Create an account for client
