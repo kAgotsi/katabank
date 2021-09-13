@@ -17,14 +17,14 @@ POST /api/operations/withdrawal : make withdrawal in account
 
 POST /api/operations/: Get all operation
 
-Test:
+**Test**:
 Scenario:
 To test :
-0- Create database on mysql server : kata_bank
-1- Create a client
-2-Create an account for client
-3- Make a deposit / withdrawal in account
-4- Get all operations by account
+0. Create database on mysql server : kata_bank
+1. Create a client
+2.Create an account for client
+3. Make a deposit / withdrawal in account
+4. Get all operations by account
 To test, you can use the curl or Postman command.
 
 please find all curl request in file request.
