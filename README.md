@@ -9,12 +9,11 @@ I used aspect-oriented programming to handle exceptions.
 
 
 ## API:
-POST /api/account : create a new bank account
-POST /api/client : create a new customer account
-POST /api/operations/deposit : make deposit in account
-POST /api/operations/withdrawal : make withdrawal in account
-
-POST /api/operations/: Get all operation
+1. POST /api/account : create a new bank account
+2. POST /api/client : create a new customer account
+3. POST /api/operations/deposit : make deposit in account
+4. POST /api/operations/withdrawal : make withdrawal in account
+5. POST /api/operations/: Get all operation
 
 ## Test:
 Scenario:
