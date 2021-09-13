@@ -4,14 +4,13 @@ Spring boot 2.5.2
 Spring data
 Mysql as database
 
-Aspect-Oriented Programming:
+## Aspect-Oriented Programming:
 I used aspect-oriented programming to handle exceptions.
 
 
 ## API:
 POST /api/account : create a new bank account
 POST /api/client : create a new customer account
-
 POST /api/operations/deposit : make deposit in account
 POST /api/operations/withdrawal : make withdrawal in account
 
@@ -29,7 +28,7 @@ To test, you can use the curl or Postman command.
 
 please find all curl request in file request.
 
-Demo:
+## Demo:
 you will find a demo file here :
 https://youtu.be/EsBue432cmg
 
