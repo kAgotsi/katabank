@@ -1,4 +1,4 @@
-Technologies used:
+## Technologies used:
 
 Spring boot 2.5.2
 Spring data
@@ -8,7 +8,7 @@ Aspect-Oriented Programming:
 I used aspect-oriented programming to handle exceptions.
 
 
-API:
+## API:
 POST /api/account : create a new bank account
 POST /api/client : create a new customer account
 
@@ -17,7 +17,7 @@ POST /api/operations/withdrawal : make withdrawal in account
 
 POST /api/operations/: Get all operation
 
-* **Test** *:
+## Test:
 Scenario:
 To test:
 0. Create database on mysql server : kata_bank
