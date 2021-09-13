@@ -1,8 +1,8 @@
 ## Technologies used:
 
-. Spring boot 2.5.2
-. Spring data
-. Mysql as database
+1. Spring boot 2.5.2
+2. Spring data
+3. Mysql as database
 
 ## Aspect-Oriented Programming:
 I used aspect-oriented programming to handle exceptions.
